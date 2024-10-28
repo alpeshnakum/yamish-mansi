@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homepage | Clover</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="https://clover.differenz.agency/assets/images/favicon.png" />
+    <meta name="keywords"
+        content="best wedding template, couple, marriage template, together forever, love story, marry, wedding day, wedding event" />
+    <meta name="description"
+        content="A wedding template is an essential tool when planning a wedding. It helps you create a beautiful wedding website." />
+    <!-- Start Helping Links -->
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/vendor/css/all.min.css" />
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/vendor/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://clover.differenz.agency/assets/vendor/css/owl.carousel.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://clover.differenz.agency/assets/vendor/css/owl.theme.default.min.css" /> -->
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/vendor/css/magnificpopup.css" />
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/vendor/css/aos.css" />
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/css/progressbar.css" />
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/css/elements.css" />
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/css/style.css" />
+    <link rel="stylesheet" href="https://clover.differenz.agency/assets/css/responsive.css" />
+    <!-- End Helping Links -->
+
+    <!-- Starting meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yamish-mansi.netlify.app/" />
+    <meta property="og:title" content="Yamish - Mansi" />
+    <meta property="og:image" content="https://yamish-mansi.netlify.app/img/image-2.jpg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:description" content="Wedding Invitation" />
+    <meta property="og:site_name" content="Yamish - Mansi" />
+    <!-- Ending meta tags -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        body {
+            /* display: none; */
+        }
+
+        /* start setting up title name and timer place */
+
+        .hero-section {
+            /* height: 90vh; */
+        }
+
+        .hero-section-2.home-only .hero-area {
+            top: 50%;
+            transform: translateY(-50%);
+            height: 70%;
+        }
+
+        .container-fluid {
+            height: 90%;
+        }
+
+        .row.align-items-center {
+            height: 100%;
+        }
+
+        .container-fluid .row {
+            align-content: space-between;
+        }
+
+        .hero-section-2 {
+            /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(./img/image-1.jpg); */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./img/image-2.jpeg);
+        }
+
+        /* end setting up title name and timer place */
+
+        .navbar>.container,
+        .navbar>.container-fluid,
+        .navbar>.container-lg,
+        .navbar>.container-md,
+        .navbar>.container-sm,
+        .navbar>.container-xl,
+        .navbar>.container-xxl {
+            justify-content: space-around;
+        }
+
+        .navbar-brand {
+            margin: 0 !important;
+        }
+
+        header nav.navbar {
+            border: 0px;
+            position: absolute;
+        }
+
+        .navbar-brand img {
+            width: 100%;
+            height: unset;
+            margin-top: 5px;
+        }
+
+        header nav.navbar.navbar.fixed-top {
+            background-color: #652b2b00;
+            box-shadow: unset !important;
+        }
+
+        .left_pattern img,
+        .right_pattern img {
+            mix-blend-mode: normal;
+        }
+
+        .c-home-photocarousel {
+            /* display: none; */
+        }
+
+        .about-single-para {
+            font-size: 18px;
+        }
+
+        .about-single-para .text-name {
+            color: #c78665;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .about-single-para .text-date {
+            color: #c78665;
+            font-weight: bold;
+        }
+
+        .about-single-content.rsvp-adust img {
+            height: 100px;
+        }
+
+        .rsvp-box-location a {
+            text-decoration: none;
+            color: #c78665;
+        }
+
+        body .rsvp-full-container.about-single-content {
+            margin-bottom: 0px;
+        }
+
+        .attendance-sec.text-center.position-relative {
+            display: none;
+        }
+
+        .c-home-video.video-sec {
+            display: none;
+        }
+
+        #timer-up-content #headline {
+            font-size: 28px;
+            text-align: center;
+        }
+
+        #timer-up-content p {
+            font-size: 18px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        hr.sep-2 {
+            margin-top: 20px;
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, #ededed, #d89460, #d89460, #ededed);
+            opacity: 0.8;
+        }
+
+        /* css for slider */
+        .swiper {
+            width: 100%;
+            height: 560px;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        /* Add background images to respective slides */
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 80%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .swiper-slide img {
+            display: block;
+            position: relative;
+        }
+
+        /* .swiper-slide:nth-child(1n) { 
+                background-image: url('./img/slider-image/slide-1.jpg'); 
+            }
+
+            .swiper-slide:nth-child(2n) { 
+                background-image: url('./img/slider-image/slide-2.jpg'); 
+            }
+
+            .swiper-slide:nth-child(3n) { 
+                background-image: url('./img/slider-image/slide-3.jpg'); 
+            }
+
+            .swiper-slide:nth-child(4n) { 
+                background-image: url('./img/slider-image/slide-4.jpg'); 
+            }
+
+            .swiper-slide:nth-child(5n) { 
+                background-image: url('./img/slider-image/slide-5.jpg'); 
+            }
+
+            .swiper-slide:nth-child(6n) { 
+                background-image: url('./img/slider-image/slide-6.jpg'); 
+            }
+
+            .swiper-slide:nth-child(7n) { 
+                background-image: url('./img/slider-image/slide-7.jpg'); 
+            }
+
+            .swiper-slide:nth-child(8n) { 
+                background-image: url('./img/slider-image/slide-8.jpg'); 
+            }
+
+            .swiper-slide:nth-child(9n) { 
+                background-image: url('./img/slider-image/slide-9.jpg'); 
+            }
+
+            .swiper-slide:nth-child(10n) { 
+                background-image: url('./img/slider-image/slide-10.jpg'); 
+            } */
+
+        /* .slide-1 {
+                background-size: 650px;
+                background-position: left -120px top -150px;
+            }
+            .slide-3 {
+                background-size: 470px;
+                background-position: left -50px top 0px;
+            }
+            .slide-4 {
+                background-size: 470px;
+                background-position: left -30px top 0px;
+            }
+            .slide-5 {
+                background-position: left -110px top 0px;
+            }
+            .slide-8 {
+                background-size: 600px;
+                background-position: left -115px top -70px;
+            }
+            .slide-9 {
+                background-size: 600px;
+                background-position: left -115px top -70px;
+            }
+            .slide-10 {
+                background-position: center center;
+            } */
+    </style>
+</head>
+
+<body>
+    <!-- Start Preloader -->
+    <div class="preloader" style="display: block">
+        <div class="vertical-centered-box">
+            <div class="content">
+                <div class="loader-heart">
+                    <img src="https://clover.differenz.agency/assets/images/loader.gif" class="footer-logo"
+                        alt="footer logo" />
+                </div>
+            </div>
+            <div class="curtails-effect"></div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+    <!-- Start header -->
+    <header>
+        <nav id="navbar-top" class="navbar navbar-expand-lg navbar-dark py-0">
+            <div class="container-fluid mobile-menu-top">
+                <a class="navbar-brand logo py-0" href="index.html">
+                    <img src="./img/logo-1.png" class="whitelogo" alt="" />
+                    <img src="./img/logo-1.png" class="bluelogo" alt="" />
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    <!-- Start Hero Banner -->
+    <div class="hero-section hero-section-2 home-only position-relative">
+        <div class="hero-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="name-title">
+                        <div class="col-lg-12 hero-text hero-text-2">
+                            <h1 class="font-playfair text-center w-100" data-aos="fade-right">
+                                Yamish <span class="text-brown">&</span> Mansi
+                            </h1>
+                        </div>
+                        <div class="col-lg-12">
+                            <h5 class="font-raleway text-center w-100 home-date-text">Save The Date</h5>
+                        </div>
+                    </div>
+
+                    <div class="timer-container">
+                        <div class="col-lg-8 offset-lg-2 col-md-8">
+                            <!-- timer starts -->
+                            <div id="countdown" class="main-countdown">
+                                <ul>
+                                    <li data-aos="zoom-in" class="aos-init aos-animate">
+                                        <span id="days">0</span>Days
+                                    </li>
+                                    <li data-aos="zoom-in" class="aos-init aos-animate">
+                                        <span id="hours">0</span>Hours
+                                    </li>
+                                    <li data-aos="zoom-in" class="aos-init aos-animate">
+                                        <span id="minutes">0</span>Minutes
+                                    </li>
+                                    <li data-aos="zoom-in" class="aos-init aos-animate">
+                                        <span id="seconds">0</span>Seconds
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Additional content to display when the countdown is over -->
+                            <div id="timer-up-content" class="" style="display: none;">
+                                <h1 id="headline">And they lived happily ever after!</h1>
+                                <p>The wait is over – it's time to celebrate your Wedding! <br> 🥂💍</p>
+                                <!-- Include additional timer-up-content here -->
+                            </div>
+                            <!-- timer ends -->
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="sep-2">
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Banner -->
+    <!-- Start About Us -->
+    <section class="about-us-bg position-relative c-home-about">
+        <div class="container">
+            <div class="hero-image position-relative">
+                <div class="image-ring">
+                    <img src="./img/logo-6.png" alt="hero-main" />
+                </div>
+            </div>
+            <div class="main-title text-center position-relative">
+                <span class="font-playfair">Happy Couple</span>
+                <h5 class="font-raleway">
+                    <div class="left_pattern"><img
+                            src="https://clover.differenz.agency/assets/images/svg/blue-leaf-left.svg" alt="" /></div>
+                    We are getting Engaged
+                    <div class="right_pattern"><img
+                            src="https://clover.differenz.agency/assets/images/svg/blue-leaf-right.svg" alt="" /></div>
+                </h5>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="about-c-home text-center mt40">
+                        <p class="mb-0 about-single-para">
+                            Exciting news to share! <span class="text-name">Yamish</span> and <span
+                                class="text-name">Mansi</span>
+                            have joyfully accepted each other, and we're thrilled to invite you to celebrate their
+                            Wedding on
+                            <span class="text-date">November 18, 2024</span>. Your presence will add warmth to this
+                            special occasion. Join us for a day of love and laughter as we commemorate the beginning of
+                            Yamish and mansi's journey together!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+    <!-- Start Photo Carousel -->
+    <section class="c-home-photocarousel">
+        <div class="section photo-carousel-wrapper p-0">
+            <div class="main-title text-center position-relative">
+                <span class="font-playfair">Our Moments</span>
+                <h5 class="font-raleway">Story Begins</h5>
+            </div>
+            <div class="container-fluid c-container-padding">
+                <div id="gallery-slides" data-aos="zoom-in-up">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-1.jpeg" style="height: 150%; left: 6%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-2.jpeg" style="height: 100%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-3.jpeg" style="height: 100%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-4.jpeg" style="height: 100%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-5.jpeg" style="height: 100%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-6.jpeg" style="height: 100%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/slider-image/slide-7.jpeg" style="height: 120%;" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Photo Carousel -->
+    <!-- Start Save Date Parallax -->
+    <section class="celebration-time-sec position-relative">
+        <div class="main-title more-text text-center position-relative">
+            <span class="font-playfair">When & Where</span>
+            <h5 class="font-raleway">Celebration Begins</h5>
+        </div>
+        <div class="container-fluid c-container-padding celebration-space-adjust">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="rsvp-full-container about-single-content rsvp-adust">
+                        <div class="rsvp-icon-contents">
+                            <div class="rsvp-bordered">
+                                <img src="https://clover.differenz.agency/assets/images/elements-images/svg/rsvp-icon-1.svg"
+                                    alt="icon" />
+                            </div>
+                        </div>
+                        <div>
+                            <h6 class="font-playfair rsvp-single-title">Yamish & Mansi: A Forever Love</h6>
+                            <div class="about-single-sep"></div>
+                        </div>
+                        <p class="text-center rsvp-box-desc-first">
+                            Sunday, 18 November 2024 <br />9:00 AM
+                        </p>
+                        <p class="text-center rsvp-box-desc-last">
+                            Konjali, Mahuva, Bhavnagar
+                        </p>
+                        <p class="text-center rsvp-box-desc-last rsvp-box-location">
+                            <a target="_blank" type="button" title="View Map"
+                                href="https://maps.app.goo.gl/EmxM8UjgLZ26wAiy9">
+                                View Map
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Save Date Parallax -->
+
+    <!-- Start Footer -->
+    <footer class="footer-bg">
+        <div class="footer-main" data-aos="zoom-in">
+            <div class="footer-bg1">
+                <div class="name-footer">
+                    <span class="first-let">Y</span>
+                    <span class="and">&</span>
+                    <span class="last-let">M</span>
+                </div>
+            </div>
+        </div>
+        <h2 data-aos="zoom-in">Thank You</h2>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+    <!-- script for timer -->
+    <script>
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            const customHour = 9,
+                customMinute = 0,
+                customSecond = 0;
+
+            let today = new Date(),
+                dd = String(today.getDate()).padStart(2, "0"),
+                mm = String(today.getMonth() + 1).padStart(2, "0"),
+                yyyy = today.getFullYear(),
+                targetDate = new Date("11/18/2024 " + customHour + ":" + customMinute + ":" + customSecond);
+
+            const countDown = targetDate.getTime(),
+                x = setInterval(function () {
+
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days").innerText = Math.floor(distance / (day));
+                    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour));
+                    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute));
+                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                    // do something later when date is reached
+                    if (distance < 0) {
+                        document.getElementById("headline").innerText = "And they lived happily ever after!";
+                        document.getElementById("countdown").style.display = "none";
+                        document.getElementById("timer-up-content").style.display = "block";
+                        clearInterval(x);
+                    }
+                    // seconds
+                }, 1000); // Update every 1000 milliseconds (1 second)
+        }
+        )();
+    </script>
+
+    <!-- Start Script -->
+    <script src="https://clover.differenz.agency/assets/vendor/js/jquery.min.js"></script>
+    <script src="https://clover.differenz.agency/assets/vendor/js/popper.min.js"></script>
+    <script src="https://clover.differenz.agency/assets/vendor/js/bootstrap.min.js"></script>
+    <script src="https://clover.differenz.agency/assets/vendor/js/jquery.magnific-popup.min.js"></script>
+    <!-- <script src="https://clover.differenz.agency/assets/vendor/js/owl.carousel.min.js"></script> -->
+    <script src="https://clover.differenz.agency/assets/vendor/js/imagesloaded.pkgd.min.js"></script>
+    <!-- <script src="https://clover.differenz.agency/assets/vendor/js/countdown.js"></script> -->
+    <script src="https://clover.differenz.agency/assets/vendor/js/masonry.pkgd.js"></script>
+    <script src="https://clover.differenz.agency/assets/vendor/js/aos.js"></script>
+    <script src="https://clover.differenz.agency/assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
